@@ -1,0 +1,59 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction:column;
+}
+.conteiner{
+	max-width: 940px;
+	margin: 0px auto;
+}
+.content{
+	flex: 1 1 auto;
+}
+.header{
+	display: flex;
+	flex-flow:row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	& li{
+		margin: 33px 20px 60px 0px;
+		&:last-child{
+			margin: 33px 0px 60px 0px;
+		}
+	}
+	& a{
+		padding: 8px 60px;
+	}
+	}
+
+.header ul{
+	display: flex;
+	flex-flow:row nowrap;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+.footer{
+}
+.footer__row{
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+}
+.footer__image{
+
+}
+.footer__text{
+	font-size: 18px;
+}
